@@ -1,0 +1,73 @@
+// .container {
+//     background: rgb(216, 186, 186);
+//     position: flex;
+//     border: 3px solid rgb(81, 71, 71);
+//     border-radius: 5px;
+//     padding:10px ;
+//     margin-top: 1em;
+//     display: flex;
+//     // flex-direction: coumn;
+//     flex-wrap: wrap;
+//     width: fit-content;
+
+// }
+
+// .box-color1 {
+//     background-color: rgb(93, 252, 218);
+//     border: 2px lightgrey;
+//     padding:5px ;
+//     margin-bottom: 10px;
+//     width: fit-content;
+  
+    
+    
+// }
+
+// .box-color2 {
+//     background-color: rgb(248, 34, 34);
+//     border: 2px lightgrey;
+//     padding:5px ;
+//     margin-bottom: 10px;
+//     width: fit-content;
+
+// }
+
+// .box-color3 {
+//     background-color: rgb(52, 240, 15);
+//     border: 2px lightgrey;
+//     padding:5px ;
+//     margin-bottom: 10px;
+//     width: fit-content;
+// }
+
+// .box-color4 {
+//     background-color: rgb(249, 221, 7);
+//     border: 2px lightgrey;
+//     padding:5px ;
+//     margin-bottom: 10px;
+//     width: fit-content;
+// }
+
+.page-wrapper {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.header-wrapper {
+    min-height: 8vh;
+    max-height: 8vh;
+    height: 8vh;
+}
+
+.body-wrapper {
+    min-height: 84vh;
+    max-height: 84vh;
+    height: 84vh;
+    overflow-y: auto;
+}
+
+.footer-wrapper {
+    min-height: 8vh;
+    max-height: 8vh;
+    height: 8vh;
+}

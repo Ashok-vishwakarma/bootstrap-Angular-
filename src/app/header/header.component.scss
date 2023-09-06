@@ -1,0 +1,93 @@
+.header {
+    // position: fixed;
+    // height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.logobox {
+    display: flex;
+    align-items: center;
+}
+
+.logobox svg {
+    color: #fff;
+}
+
+.logobox h1 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchgroup {
+    position: relative;
+}
+
+.searchgroup input {
+    width: 350px;
+    padding-right: 35px;
+}
+
+.searchgroup svg {
+
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+
+#cart {
+    height: 35px;
+    color: white;
+    margin: 0 15px;
+}
+
+@media (width:424px) and (height:896) {
+
+    .searchgroup {
+        width: 199px;
+        /* padding-right: 35px; */
+        margin-top: 9px;
+    }
+
+    .header svg{
+        margin-top: 9px;
+        margin-left: -4px;
+    }
+
+    .header h1{
+        display: none;
+    }
+
+    .searchbox .searchgroup text{
+        width: 199px;
+        /* padding-right: 35px; */
+        margin-top: 9px;
+    
+    }
+
+    .searchbox .searchgroup svg{
+        position: absolute;
+        right: 5px;
+        top: 17px;
+    }
+
+   #Dashboard{
+        position: relative;
+    top: 4px;
+    }
+
+    .card{
+        padding: 26px;
+        /* margin: -14px; */
+        display: flex;
+    }
+
+
+}
